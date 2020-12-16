@@ -1,0 +1,36 @@
+*{
+  margin: 0;
+
+}
+
+.app{
+  background-color: #111;
+ 
+}
+
+@media (min-width:315px) and (max-width:410px){
+ 
+ .app {
+   background-color: #111;
+ width: 130%;
+ }
+ 
+}
+
+@media (min-width:215px) and (max-width:313px) {
+
+  .app {
+    background-color: #111;
+    width: 180%;
+  }
+
+}
+
+@media (min-width:115px) and (max-width:214px) {
+
+  .app {
+    background-color: #111;
+    width: 210%;
+  }
+
+}
